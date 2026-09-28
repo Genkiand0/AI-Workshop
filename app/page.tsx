@@ -8,6 +8,15 @@ export default function Home() {
         <p className="tagline">a senior at UH Manoa studying Computer Science.</p>
       </section>
 
+      <section className="semester">
+        <h2>This semester</h2>
+        <ul>
+          <li>SLS 480E</li>
+          <li>My AIR project</li>
+          <li>Learning to surf</li>
+        </ul>
+      </section>
+
       <section className="about">
         <h2>About</h2>
         <p>
@@ -19,19 +28,9 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Placeholder items below — Genki will replace these with his real semester details */}
-      <section className="semester">
-        <h2>This semester</h2>
-        <ul>
-          <li>Taking upper-division coursework in software engineering and algorithms</li>
-          <li>Building a personal side project to practice full-stack development</li>
-          <li>Participating in an AI workshop to learn how to build with Claude</li>
-        </ul>
-      </section>
-
       <footer>
         <p>
-          Genki Ando &copy; {year}
+          Genki Ando &copy; {year} &middot; Built with Claude Code
         </p>
       </footer>
     </main>
